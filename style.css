@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 100% georgia, sans-serif;
+    line-height: 1.88889;
+    color: dark;
+    margin: 20px;
+    padding: 0;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+h3 {
+    font: 200% georgia, sans-serif;
+    letter-spacing: 1.3px;
+    margin-bottom: 0;
+    color: GoldenRod;
+    text-shadow: 0.5px 0.2px 0.5px;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: Navy;
+}
+
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: Red;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: Coral;
+    text-shadow: 0.2px 0.2px 0.2px;
+}
+
+abbr {
+    border-bottom: none;
+}
+
+
+/* specific divs */
+.page-wrapper {
+    background:
+        padding: 0 175px 0 110px;
+    margin: 0;
+    position: relative;
+}
+
+h1 {
+
+    font: Book Antiqua, san-serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+
+
+}
+
+.intro h2 {
+    font: georgia;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+
+
+
+}
+
+header {
+
+    background-image: url(https://image.freepik.com/free-photo/colorful-flowers-on-pink-wooden-background_24837-11.jpg);
+
+    height: 250px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.summary {
+
+    margin-bottom: 20px;
+
+
+}
+
+.summary p {
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+
+    background-color: peachpuff;
+}
+
+.preamble {
+    clear: right;
+    padding: 0px 10px 0 10px;
+}
+
+.supporting {
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+
+    background-color: peachpuff;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer a:link,
+footer a:visited {
+    margin-right: 20px;
+}
+
+
+.sidebar li a:link {
+    color: #7588FF;
+}
+
+.sidebar li a:visited {
+    color: #B3AE94;
+}
+
+.extra1 {
+    background:
+        position: absolute;
+    top: 40px;
+    right: 0;
+    width: 148px;
+    height: 110px;
+}
+
+@media only screen and (min-width: 35rem) {
+    body {
+        font-size: 1.20rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .preamble,
+    .explanation,
+    participation,
+    .benefits,
+    .participation,
+    .requirements {
+        width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+
+    }
+
+    .preamble,
+    .explanation,
+    participation,
+    .benefits,
+    .participation,
+    .requirements {
+        width: 70rem;
+        margin: 0 auto;
+    }
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
